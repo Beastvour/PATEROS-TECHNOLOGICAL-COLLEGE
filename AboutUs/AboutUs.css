@@ -1,0 +1,91 @@
+
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position:relative;
+    opacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1 {
+    background-image: url("../AboutUs/AboutUs1stBG.jpg");
+    min-height: 100%;
+
+
+}
+
+.pimg2 {
+    background-image: url("../AboutUs/AboutUs2ndBG.jpg");
+    min-height: 400px;
+
+
+}
+
+.pimg3 {
+ background-image: url("../AboutUs/AboutUs3rdBG.jpg");
+min-height: 400px;
+ 
+}
+.pimg4 {
+ background-image: url("../AboutUs/AboutUs4BG.jpg");
+min-height: 400px;
+}
+.section1, .section2, .section3, .section4 {
+    
+    font-size: 27px;
+    text-align: center;
+    background-color: #fffdea;
+    padding: 20px;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: White;
+    font-size: 50;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 40px black;
+    
+    
+    
+}
+ span.border {
+    
+    background: #5d5e60;
+    padding:20px;
+    border-radius: 20px;
+    
+}
+ul {
+    list-style: none;
+}
+       #nav {
+
+            background-color: green;
+            padding-right: 50px;
+            overflow: hidden;
+        }
+        #nav .nav-button {
+            background-color: green;
+            float: right;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 12px;
+            font-size: 11px;
+
+        }
+        #nav a button.nav-button:hover{
+            background-color: limegreen;
+            border-radius: 5%;
+        }    
+        #nav .nav-button:hover  
+        {
+          color: black;
+          transition: 0.5s;
+
+        }
